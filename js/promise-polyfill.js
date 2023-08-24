@@ -249,4 +249,4 @@
       : (p.Promise.prototype["finally"] || (p.Promise.prototype["finally"] = e),
         p.Promise.allSettled || (p.Promise.allSettled = t),
         p.Promise.any || (p.Promise.any = r));
-  });S
+  });
