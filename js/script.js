@@ -72,7 +72,7 @@ let pokemonRepository = (function () {
     }
     
 
-    function showModal(title, text, img) {
+    function showModal(title, text, image) {
         modalContainer.innerHTML = '';
     
         let modal = document.createElement('div');
@@ -90,7 +90,7 @@ let pokemonRepository = (function () {
         contentElement.innerText = text;
     
         let imageElement = document.createElement("img");
-        imageElement.setAttribute("src", img);
+        imageElement.setAttribute("src", image);
         imageElement.setAttribute("width", "306");
         imageElement.setAttribute("height", "230");
     
