@@ -1,0 +1,144 @@
+
+.color-blue {
+  color: pink
+}
+
+.italics {
+font-style: italic;
+}
+
+h1 {
+  color: darkslategray;
+  text-align: center;
+  padding: 10px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: 50px;
+  background-color: hsl(203, 81%, 94%);
+}
+
+.list-group-pokemon {
+  margin: 10px;
+}
+
+.mainlist {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.button-class {
+  background-color: rgb(65, 65, 194);
+  border-radius: 7px;
+  padding: 6px;
+  color: white;
+  margin-top: 9px;
+  font-size: 30px;
+  font-weight: 700;
+  border-color: white;
+  border-width: 3px;
+  cursor: pointer;
+  text-transform: capitalize;
+  margin-right: 30px;
+}
+
+.button-custom {
+background-color: rgb(65, 65, 194);
+text-transform: capitalize;
+font-weight: 700;
+border-color: white;
+border-width: 3px;
+}
+
+/* Modals and Dialogs*/
+
+#modal-container {
+  display: none;
+}
+
+#modal-container.is-visible {
+  position: fixed;
+  padding: 20px;
+  box-sizing: border-box;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  
+  /* to show it above other content */
+  z-index: 999; 
+  
+  /* to allow scrolling if the screen is not high enough*/
+  overflow: auto; 
+  
+  /* this is used to center the modal */
+  display: grid;
+  text-align: center;
+}
+
+.modal {
+  margin: auto;
+  display: inline-block;
+  box-sizing: border-box;
+  background: none;
+  padding: 20px;
+  width: 700px;
+  height: 700px;
+  max-width: 700px;
+  text-align: center;
+  border-radius: 10px;
+  border: none
+}
+
+.modal-close {
+  float: right;
+  border: 0;
+  background: none;
+  color: #9b0101;
+  font-weight: 900;
+  font-size: large;
+  cursor: pointer;;
+}
+
+.modal h1 {
+  margin-top: 0;
+  font-size: 40px;
+}
+
+.modal p {
+  margin-bottom: 0;
+  font-weight: 900;
+  font-size: 25px;
+}
+
+.modal-img {
+  width: 200px;
+  height: 200px;
+  margin-left: 30px;
+  margin-top: -20px
+}
+
+.array-item {
+  text-transform: capitalize;
+}
+
+
+
+.modal-dialog {
+  text-align: center;
+}
+
+.modal-content {
+  background-color: rgb(201, 200, 228);
+  border-width: 5px;
+  border-color: rgb(6, 6, 165);
+}
+
+.logo-container {
+  text-align: center;
+}
+
+.logo {
+  width: 20%;
+}
