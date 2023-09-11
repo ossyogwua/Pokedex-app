@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 Pokedex
 
 This is web application, that was built with HTML; CSS and Javascript. It displays list of Pokemon images, names, types, weight and height via a modal when clicked on from an external API.
