@@ -106,16 +106,13 @@ let pokemonRepository = (function () {
         modalBody.append(typesElement);
         modalBody.append(abilitiesElement);
     }
-    
-
-
-    return {
-        add: add,
-        getAll: getAll,
-        addListItem: addListItem,
-        loadList: loadList,
-        loadDetails: loadDetails,
-        showDetails: showDetails,
+        return {
+        add:
+        getAll,
+        addListItem,
+        loadList,
+        loadDetails,
+        showDetails,
     };
 })();
 
